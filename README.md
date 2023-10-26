@@ -1,8 +1,8 @@
-# js-react-frontend-starter
+# js-next-frontend-starter
 
-Project Starter for Frontend JS projects - React
+Project Starter for Frontend JS projects - Next JS
 
-[![Build Status](https://app.travis-ci.com/rogerio-romao/eslint-preset-js-frontend.svg?branch=main)](https://app.travis-ci.com/rogerio-romao/eslint-preset-js-frontend)
+[![Build Status](https://app.travis-ci.com/rogerio-romao/js-next-frontend-starter.svg?branch=main)](https://app.travis-ci.com/rogerio-romao/js-next-frontend-starter)
 
 ## Features
 
@@ -13,7 +13,7 @@ Project Starter for Frontend JS projects - React
 -   CI - TravisCI integrated and configured, runs the linting and test commands
     on pull requests to main branch.
 
--   Vite based React minimal setup. Featuring fast build times, HMR, Typescript
+-   Vite based NextJS minimal setup. Featuring fast build times, HMR, Typescript
     and JSX support out-of-the-box, assets and public folders, all CSS syntaxes,
     PostCSS compatibility and minification. Direct import of assets and JSON.
 
