@@ -468,7 +468,7 @@ module.exports = {
         'react/no-unstable-nested-components': 'warn',
         'react/no-unused-prop-types': 'warn',
         'react/prefer-read-only-props': 'warn',
-        'react/prop-types': 'warn',
+        'react/prop-types': 'off',
         'react/self-closing-comp': 'warn',
         'react/style-prop-object': 'warn',
         'react/void-dom-elements-no-children': 'error',

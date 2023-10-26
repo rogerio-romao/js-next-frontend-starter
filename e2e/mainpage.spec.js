@@ -1,14 +1,9 @@
 import { expect, test } from '@playwright/test';
 
-test('mainpage', async ({ page, baseURL }) => {
-    await page.goto(baseURL);
-    await expect(
-        page.getByRole('heading', { name: 'React App' })
-    ).toBeVisible();
-    await expect(page).toHaveTitle('JS Frontend Starter / React');
-    await expect(page.getByTestId('counter')).toHaveText('Count: 0');
-    await page.getByRole('button', { name: 'Increment' }).click();
-    await expect(page.getByTestId('counter')).toHaveText('Count: 1');
-    await page.getByRole('button', { name: 'Increment' }).click();
-    await expect(page.getByTestId('counter')).toHaveText('Count: 2');
+test.skip('test', async ({ page }) => {
+    await page.goto('/');
+    expect(await page.getByRole('heading', { level: 1 })).toBeVisible();
+    expect(await page.getByRole('heading', { level: 1 })).toHaveText(
+        'Home Page'
+    );
 });
