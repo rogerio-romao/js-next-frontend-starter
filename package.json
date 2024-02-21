@@ -36,7 +36,7 @@
         "fully supports es6-module"
     ],
     "devDependencies": {
-        "@isnotdefined/stylelint-plugin": "^4.0.0",
+        "@isnotdefined/stylelint-plugin": "^5.0.0",
         "@playwright/test": "^1.41.2",
         "@types/node": "^20.11.19",
         "@types/react": "^18.2.55",
